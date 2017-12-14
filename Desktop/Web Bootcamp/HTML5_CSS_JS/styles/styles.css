@@ -1,0 +1,58 @@
+@font-face {
+     src: url("../fonts/batmfo__.ttf");
+      font-family: batman;
+    }
+    
+    body {
+     padding: 0;
+      margin: 0;
+    }
+    clearfix:after {
+          content: " "; /* Older browser do not support empty content */
+          visibility: hidden;
+          display: block;
+          height: 0;
+          clear: both;
+        }
+    .navbar{
+        osition: fixed;
+        top: 0;
+        width:100%;
+        background-color:#f7f7f7;
+        
+
+    }
+    
+    .navbar > .navbar__list {
+     list-style-type: none;
+      margin: 0;
+     width: 100%;
+      font-size: 0;
+    }
+    
+    .navbar > .navbar__list > .navbar__item {
+      display: inline-block;
+      font-size: 1rem;
+    }
+    
+    .navbar > .navbar__list > .navbar__item a {
+      display: inline-block;
+      text-decoration: none;
+      padding: 20px;
+      color: rgba(0, 0, 0, 0.9);
+    }
+    
+    .navbar > .navbar__list > .navbar__item--active a {
+      color: #f7f7f7;
+      background-color: #a4a4a4;
+    }
+    
+    .navbar > .navbar__list > .navbar__item a:hover {
+      color: #f7f7f7;
+     background-color: #a4a4a4;
+    }
+    .header >.header__image {
+        background-image: url(./images/batman.jpg);
+        background-size:  100% 100%;
+        background-repeat: 
+    }
